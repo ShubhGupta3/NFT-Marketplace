@@ -1,19 +1,27 @@
-# Basic Sample Hardhat Project
+# Basic NFT Marketplace
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+## About Project
 
-Try running some of the following tasks:
+This project uses Solidity language to create Ethereum Smart Contracts
+Hardhat to interact with the contracts
+OpenZeppelin to import useful Contracts
+Reactjs and React Bootstrap for Front-end stuff
+
+<!-- ## Working with the repo on your system
+
+Clone the repo into your code editor and run
+```shell
+npm install
+```
+This will install all the dependencies required for project to function.
+Then initialize hardhat and compile to create artifacts
 
 ```shell
-npx hardhat accounts
+npx hardhat
 npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
 ```
 
-TODO :
+Once the contract gets compiled, go ahead and copy the NFT ABI from artifacts/contracts/NFT.sol/NFT.json into src/abi/NFTabi.js and default export it.
+Do the same for NFTMarket contract as well
 
-1. Create env variables of project id and account private keys
+Make sure the -->
